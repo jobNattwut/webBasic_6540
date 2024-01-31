@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,200&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /*background-color: blueviolet;*/
+}
+
+/* ------------------------Start Header---------------------  */
+
+header{
+    background-color: #663498;
+}
+nav{
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     width: 1100px;
+     height: 40px;
+     margin: auto;
+    /* background-color: aqua;*/
+
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+
+}
+li{
+    margin-right: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/*------------Start Hero Section------------------------*/
+
+.hero{
+    display: flex;
+    /*background-color: aqua;*/
+    width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    /*background-color: brown;*/
+}
+
+.hero-text--box{
+    /*background-color: chartreuse;*/
+    color: #fff;
+
+}
+
+.hero-button{
+    /*background-color: aqua;*/
+    display: flex;
+
+}
+
+.hero-bt--getStart{
+    background-color: #C72DE0;
+    padding: 8px 20px ;
+    border-radius: 30px;
+    margin-right: 20px;
+
+}
+
+.hero-bt--watch{
+    /*background-color: rgb(214, 14, 14);*/
+    display: flex;
+    align-items: center;
+
+}
+
+.Pricing {
+    /* background-color: black; */
+    /* align-items: center; */
+    color: #663498(0, 0, 0);
+    margin: auto;
+    width: 1100px;
+    margin-top: 40px;
+
+}
+.Pricing-1 {
+    /* align-items: center; */
+    margin-left: 500px;
+    color: #663498;
+    text-transform: uppercase;
+    
+}
+.Pricing-box {
+    display: flex;
+    /* background-color: rgb(0, 255, 21); */
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.Pricing-box1 {
+    /* background-color: black; */
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #663498(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+    margin: auto;
+}
+.Pricing-box2 {
+    /* background-color: black; */
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #663498(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+    margin: auto;
+}
+.Pricing-box3 {
+    /* background-color: black; */
+    justify-content: space-between;
+    margin-right: 50px;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #663498(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+    margin: auto;
+}
+
+/*----------------Start Members Section------------------------*/
+.text-h2 {
+    color: #663498;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.text-param{
+    color: #070607;
+    text-align: center;
+}
+
+.Member{
+    background-color: #C72DE0;
+    padding: 40px;
+    
+}
+
+.Member-box{
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0.5px #bfe2ee;
+    border-radius: 5px;
+    padding: 1px 40px 50px;
+
+}
+
+table{
+    width: 80%;
+    border: 1px solid #643b3b;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+th, td{
+    border: 1px solid #643b3b;
+
+}
+th{
+
+}
+
+td{
+
+}
