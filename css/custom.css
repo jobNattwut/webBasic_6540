@@ -1,0 +1,22 @@
+      .text-uppercase{
+            text-transform: uppercase;
+        }
+        .button{
+            background-color: rgb(237, 0, 75);
+            border-radius: 30px;
+            padding: 8px 16px;
+            margin: 30px;
+            display: flex;
+            width: 90px;
+            display: inline-block;
+
+            
+        }
+        a {
+            text-decoration: none;
+        }
+        input{
+            margin-top: 10px;
+        }
+        
+  

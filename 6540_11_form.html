@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <h1 class="text-uppercase">tutorial abou form</h1>
+    <hr>
+    <form action="6540_01_home.html">
+        <fieldset style="background-color: darkseagreen;">
+            <legend>Text Field</legend>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="กรุณาป้อนชื่อ" required>
+            <br>
+            <label for="Iname">last  name</label>
+            <input type="text" id="Iname" name="Iname" placeholder="กรุณาป้อนนามสกุล" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" id="fname" name="fname" placeholder="กรุณาป้อนอีเมล์" required>
+            <br>
+            <label for="Age">Age</label>
+            <input type="number" id="fname" name="fname" placeholder="กรุณาป้อนอายุ" required min="0" max="130">
+            <br>
+            <label for="Age2">Age2</label>
+            <input type="number" id="fname" name="fname" placeholder="กรุณาป้อนอายุ" required min="0" max="130" value="60" readonly>
+            <br>
+            <label for="Birthday">Birthday</label>
+            <input type="date" id="fname" name="fname" placeholder="กรุณาป้อนวันเกิด" required>
+            <br>
+
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>
+
+       <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+       <fieldset style="background-color: rgb(123, 241, 33);">
+          <legend>Test Sent Data to Web Server</legend>
+          <label for="firstname">Name</label>
+          <input type="text" name="input_name"  id="firstname"><br>
+          <label for="mail">Email</label>
+          <input type="text" name="input_email"  id="mail">
+          <br><br>
+          <input type="submit" >
+       </fieldset>
+    </form>
+
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(3, 202, 224);">
+            <legend>Radio Button</legend>
+            <label for="gender">Gender </label>
+            <input type="radio" name="input_gender"  id="male"value="M">
+            <label for="">ชาย</label>
+
+            <input type="radio" name="input_gender" id="female"value="F">
+            <label for="">หญิง</label>
+
+            <br><br>
+            <input type="submit" value="ยืนยัน">
+        </fieldset>
+   
+    </form>
+
+       <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+   
+         <fieldset style="background-color: darkorange;">
+            <legend>CheckBox</legend>
+            <p>Your favarite web Langage</p>
+             <input type="checkbox" id="htnl" name="f-language1" value="HTML">
+             <label for="html">HTML</label>
+             <input type="checkbox" id="css" name="f-language2"  value="css">
+             <label for="css">css</label>
+             <input type="checkbox" id="JavaScript" name="f-language3" value="JavaScript">
+             <label for="JavaScript">JavaScript</label>
+
+             <br><br>
+            <input type="submit" value="ยืนยัน">
+
+
+        </fieldset>
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: darkgoldenrod;">
+            <legend>Drop Down list</legend>
+            <label for="province">จังหวัด</label>
+            <select name="province" id="province"  multiple>
+            <!--  <select name="province" id="province" size="1" multiple> -->
+                <option value="Phetchaburi">เพชรบุรี</option>
+                <option value="Kanchanaburi">กาญจนบุรี</option>
+                <option value="samut sakhon">สมุทรสาคร</option>
+            </select>
+
+            <br><br>
+            <input type="submit" value="ยืนยัน">
+            
+        </fieldset>
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(229, 14, 197);">
+            <legend>Teat Area</legend>
+            <label for="address">ที่อยู่:</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+           
+
+            <br><br>
+            <input type="submit" value="ยืนยัน">
+            <input type="reset" value="เคลียร์">
+            
+        </fieldset>
+    </form>
+
+
+
+    
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(127, 83, 157);">
+            <legend>Data List</legend>
+            <p>กรุณากรอกเว็บบราวเซอร์ที่เคยใช้งาน</p>
+
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Chome">
+                <option value="Firefox">
+                <option value="Edge">
+            </datalist> 
+
+    
+            
+           
+            <br><br>
+            <input type="submit" value="ยืนยัน">
+            <input type="reset" value="เคลียร์">
+            
+        </fieldset>
+    </form>
+
+
+      
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(255, 130, 207);">
+            <legend>Color</legend>
+            <label>กรุณาเลือกสี</label>
+            <input type="color" name="color">
+          
+            
+
+            <input type="submit" value="ยืนยัน">
+            
+            
+        </fieldset>
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(211, 107, 107);">
+            <legend>Upload File</legend>
+            <label>เลือกไฟล์</label>
+            <input type="flie" name="Upload">
+          
+           
+        
+            <input type="submit" value="ยืนยัน">
+          
+        </fieldset>
+    </form>
+
+
+
+    
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: rgb(87, 165, 169);">
+            <legend>Button</legend>
+            <input type="submit">
+            <input type="submit" value="ยืนยัน">
+            <button type="submit">ตกลง</button>
+
+            <br><br>
+            <input type="reset">
+            <input type="reset" value="เคลียร์">
+            <button type="reset">ยกเลิก</button>
+
+            <br><br>
+            <a href="6540_01_home.html">
+                <input type="button" value="Home">
+            </a>
+            <a href="6540_01_home.html">
+                <button type="button" >หน้าหลัก</button>
+            </a>
+            
+            <button type="button" onclick="alert('ต้องการลบใช่หรือไม่')">
+               ลบข้อมูล
+            </button>
+          
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
