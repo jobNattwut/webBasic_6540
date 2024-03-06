@@ -1,0 +1,72 @@
+
+  
+nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+.box1 {
+background-image: url("images/Boos.png.");
+display: flex;
+justify-content: space-around;
+}
+
+.box-name {
+padding: 30px;
+
+}
+
+.name {
+background-color: #FFFFFF;
+color: #FF9843;
+    
+
+}
+
+.box-resume {
+background-color:#B8FFF9;
+width: 500px;
+padding: 30px;
+margin: 10px;
+border-radius: 30px;
+font-size: 20px;
+}
+
+.Grad1{
+background-color: #86A7FC;
+border-radius: 10px;
+width: 1043px;
+height: 40px;
+border-radius: 10px;
+font-size: 25px;
+margin: auto;
+align-items: center;
+
+
+}
+.Grad2{
+border-radius: 10px;
+width: 1040px;
+height: 40px;
+border-radius: 10px;
+margin: auto;
+align-items: center;
+background-color: #FFDD95;
+font-size: 25px;
+
+}
+.Grad-box{
+text-align: center;
+align-items: center;
+padding: 15px;
+background-color: #B8FFF9;
+justify-items: center;
+}
+.center{
+
+
+font-size: 25px;
+padding: 10px;
+background-color: #FF9843;
+color: aliceblue;
+}

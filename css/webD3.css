@@ -191,12 +191,77 @@ th, td{
     border: 1px solid #643b3b;
 
 }
-th{
+
+.contact{
+    padding: 40px;
+    
 
 }
 
-td{
+.contact1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    
+    
+}
+    
+.box-name{
+    color: #C72DE0;
+  
+}
+
+.box-email{
+    color: #C72DE0;
+}
+
+.boxsub1{
+    color: #C72DE0;
+    margin-left: 21%;
+    
+    
+}
+
+.box-sub{
+    margin: 45px;
+    margin-right: 100%;
+    
+}
+
+.boxmess1{
+    margin-left: 23%;
 
 }
 
-.contant
+.box-Message{
+    margin-top: 10px;
+    justify-content: center;
+    color: #C72DE0;
+    width: 1040px;
+}
+
+.button{
+    font-size: 20px ;
+    color: aliceblue;
+    background-color: #C72DE0;
+    margin-left: 900px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #C72DE0;
+    padding: 8px 20px ;
+    border-radius: 30px;
+    margin-right: 20px;
+
+
+
+}
+
+footer {
+    background-color: #4D3399;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+}
