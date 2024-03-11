@@ -116,32 +116,19 @@ nav ul li{
    
 }
 
-.social-media img{
+.img{
+    height: 150px;
+    width: 150px;
     padding: 20px;
-    margin: 30px 10px
+    margin: 30px 10px;
+    border-radius: 100px;
+    
     
     
 }
 /*----------------------------------------------rps social-media-----------------------------------------*/
 
-@media screen and (max-width:1050px) {
-    .social-box{
-        
-        display: grid;
-        /*grid-template-columns: 1fr 1fr 1fr;*/
-        grid-template-columns:repeat(3,1fr);
-        max-width: 100%;
-        margin: auto;
-    
-    
-        
-    }
-    .social-media img{
-        margin: auto;
-        
-        
-    }
-}
+
 
 @media screen and (max-width:768px) {
     .social-box{
@@ -149,18 +136,13 @@ nav ul li{
         display: grid;
         /*grid-template-columns: 1fr 1fr 1fr;*/
         grid-template-columns:repeat(2,1fr);
-        max-width: 100%;
+        max-width: 95%;
         margin: auto;
     
     
         
     }
-    .social-media img{
-        margin: auto;
-        
-        
-    }
-}
+ 
 
 @media screen and (max-width:480px) {
     .social-box{
@@ -168,18 +150,11 @@ nav ul li{
         display: grid;
         /*grid-template-columns: 1fr 1fr 1fr;*/
         grid-template-columns:repeat(1,1fr);
-        max-width: 100%;
+        max-width: 95%;
         margin: auto;
     
     }
-    .social-media img{
-        padding: 20px;
-        margin: auto;
-        
-        
-    }
-}
-
+ 
 
 /*----------------------------------------------rps mypet-content------------------------------------------*/
 @media screen and (max-width:768px) {
