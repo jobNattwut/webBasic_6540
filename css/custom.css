@@ -18,5 +18,19 @@
         input{
             margin-top: 10px;
         }
+
+        .mybg{
+            background-color: rgb(172, 2, 223);
+        }
+        
+        
+        footer{
+            
+                background-color: #4D3399;
+                text-align: center;
+                color: aliceblue;
+                padding: 10px;
+            
+        }
         
   
