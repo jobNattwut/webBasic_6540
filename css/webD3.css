@@ -192,72 +192,64 @@ th, td{
     border: 1px solid #643b3b;
 
 }
+.pc{
+    text-align: center;
+}
+.lm{
+    text-align: center;
+}
 
-.contact{
-    padding: 40px;
+.ngk{
+    width: 1100px;
+    margin: auto;
+}
+
+.Youg{
+    margin-left: 420px;
+}
+
+.n{
+    margin: auto; 
+   width: 500px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210);  
+}
+
+.g{
+   margin: auto; 
+   width: 500px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+}
+
+.sub{
+   margin: auto; 
+   width: 1005px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+}
+
+.ms{
+   margin: auto; 
+   width: 1005px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+   padding: 5%;
+}
+
+.send1{
+    text-align: center;
+
+}
+
+.send2{
     
-
-}
-
-.contact1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 1%;
-    
-    
-}
-    
-.box-name{
-    color: #C72DE0;
-  
-}
-
-.box-email{
-    color: #C72DE0;
-}
-
-.boxsub1{
-    color: #C72DE0;
-    margin-left: 21%;
-    
-    
-}
-
-.box-sub{
-    margin: 45px;
-    margin-right: 100%;
-    
-}
-
-.boxmess1{
-    margin-left: 23%;
-
-}
-
-.box-Message{
-    margin-top: 10px;
-    justify-content: center;
-    color: #C72DE0;
-    width: 1040px;
-}
-
-.button{
-    font-size: 20px ;
-    color: aliceblue;
-    background-color: #C72DE0;
-    margin-left: 900px;
-    width: 400px;
-    margin-bottom: 10px;
     border-radius: 40px;
     padding: 10px;
-    text-align: center;
-    background-color: #C72DE0;
-    padding: 8px 20px ;
-    border-radius: 30px;
-    margin-right: 20px;
-
-
-
+    margin: 30px;
+    width: 300px;
+    color: #fafafa;
+    
 }
 
 footer {
